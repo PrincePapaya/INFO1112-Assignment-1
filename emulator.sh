@@ -20,3 +20,10 @@ binfile="$1"
 # sub: store register data - memory address data in register
 # quit: end the program
 # print: echo specified register
+
+declare -A registers=(
+    ["00"]=00
+    ["01"]=00
+    ["10"]=00
+    ["11"]=00
+)
